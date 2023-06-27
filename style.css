@@ -1,0 +1,276 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-snap-type: y mandatory ;
+    scroll-behavior: smooth; 
+}
+section {
+    height: 100vh;
+    scroll-snap-align: center;
+}
+/* ====================== */
+/* THE FIRST PAGE */
+/* ====================== */
+.first-page {
+    height: 100vh;
+    background-image: url(./images/desktop/image-header.jpg);
+    background-position: center;
+    background-size: cover;
+    font-family: 'Fraunces', serif;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem;
+}
+header h1 {
+    font-size: 2rem;
+    color: white;
+}
+.adittional {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    color: white;
+}
+#contact{
+    background-color: white;
+    color: black;
+    padding: 1rem;
+    border-radius: 50px;
+    width: 8rem;
+    text-align: center;
+}
+.middle-text {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4rem;
+    left: 33%;
+    top: 30%;
+}
+.middle-text svg{
+    font-size: 10px;
+}
+.middle-text h1 {
+    font-size: 3rem;
+    color: white;
+}
+
+/* ====================== */
+/* THE SECOND PAGE */
+/* ====================== */
+h1{
+    font-family: 'Fraunces', serif;
+}
+p {
+    color: grey;
+}
+#container {
+    display: flex;
+    height: 50vh;
+    width: 100vw;
+}
+#transform {
+    height: 50vh;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 8rem;
+}
+#transform a {
+    font-size: 10px;
+    font-family: 'Fraunces', serif;
+    color: black;
+    text-decoration-color: yellow;
+    text-decoration-thickness: 4px;
+}
+#egg {
+    height: 50vh;
+    width: 50vw;
+    background-image: url(./images/desktop/image-transform.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#glass {
+    height: 50vh;
+    width: 50vw;
+    background-image: url(./images/desktop/image-stand-out.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#stand-out {
+    height: 50vh;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 8rem;
+}
+#stand-out a {
+    font-size: 10px;
+    font-family: 'Fraunces', serif;
+    color: black;
+    text-decoration-color: pink;
+    text-decoration-thickness: 4px;
+}
+
+/* ====================== */
+/* THE THIRD PAGE */
+/* ====================== */
+#upper, #lower{
+    height: 50vh;
+    width: 100vw;
+    display: flex;
+    /* border: 2px solid salmon; */
+}
+#cherry {
+    width: 50vw;
+    height: 50vh;
+    background-image: url(./images/desktop/image-graphic-design.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 17rem 10rem 5rem 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+
+}
+#cherry p {
+    text-align: center;
+    color: black;
+}
+#orange {
+    width: 50vw;
+    height: 50vh;
+    background-image: url(./images/desktop/image-photography.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 17rem 10rem 5rem 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+
+}
+#orange p {
+    text-align: center;
+    color: black;
+}
+#lower {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 0 12rem 0 12rem;
+}
+#lower h1 {
+    color: rgb(188, 186, 186);
+}
+#pictures {
+    display: flex;
+}
+img {
+    width: 4rem;
+    border-radius: 50%;
+}
+.one, .two, .three {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem;
+}
+.p {
+    color: black;
+}
+.identity {
+    color: black;
+    font-weight: bold;
+}
+.name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+/* ====================== */
+/* THE FORTH PAGE */
+/* ====================== */
+.upper-container {
+    width: 100vw;
+    height: 60vh;
+    display: flex;
+}
+.milk {
+    width: 25vw;
+    background-image: url(./images/desktop/image-gallery-milkbottles.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.tangerine {
+    width: 25vw;
+    background-image: url(./images/desktop/image-gallery-orange.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.ice-cream {
+    width: 25vw;
+    background-image: url(./images/desktop/image-gallery-cone.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.sugar {
+    width: 25vw;
+    background-image: url(./images/desktop/image-gallery-sugarcubes.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.lower-container{
+    width: 100vw;
+    height: 40vh;
+    background-color: #90d4c5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+.last-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+.last-container h1{
+    color: #2e7668;
+    font-size: 3rem;
+
+}
+.last-container p {
+    color: #2e7668;
+}
+.properties {
+    display: flex;
+    gap: 4rem;
+    font-size: 1.3rem;
+}
+.icons {
+    display: flex;
+    gap: 2rem;
+}
+
